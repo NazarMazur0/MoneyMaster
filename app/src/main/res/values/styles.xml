@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="buttonView" parent="Widget.MaterialComponents.Button">
+        <item name="materialThemeOverlay">
+            @style/CustomButtonThemeOverlay
+        </item>
+    </style>
+    <style name="CustomButtonThemeOverlay">
+    <item name="android:backgroundTint">
+        @color/white
+    </item>
+    </style>
+</resources>
